@@ -8,9 +8,10 @@ import { ProductListComponent } from './product-list/product-list.component';
 import { TopBarComponent } from './top-bar/top-bar.component';
 import { TestComponent } from './test/test.component';
 import { ProductAlertsComponent } from './product-alerts/product-alerts.component';
+import { ProductDetailsComponent } from './product-details/product-details.component';
 
 @NgModule({
-  declarations: [AppComponent, ProductListComponent, TopBarComponent, TestComponent, ProductAlertsComponent],
+  declarations: [AppComponent, ProductListComponent, TopBarComponent, TestComponent, ProductAlertsComponent, ProductDetailsComponent],
   imports: [BrowserModule, ReactiveFormsModule, AppRoutingModule],
   providers: [],
   bootstrap: [AppComponent],
